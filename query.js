@@ -48,7 +48,7 @@ async function chatting(question)
     config: {
       systemInstruction: `
     You will be given a context of relevant information and a user question.
-    Your task is to answer the user's question based ONLY on the provided context.
+    Your task is to answer the user's question based ONLY on the provided context and Previous Chat.
     If the answer is not in the context, you must say "I could not find the answer in the provided document."
     Keep your answers clear, concise, and educational.
       
